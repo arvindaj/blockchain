@@ -1,0 +1,99 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import overlayImg from "../assets/img2/tradingeasy.svg"; // small overlay image
+import laptopBg from "../assets/img2/tradingimg.svg"; // background image
+import Criclebg from "../assets/img2/cricle.svg"; // background image
+import Greentike from "../assets/img2/greenacircle.svg";
+import '../assets/css/wordpresssection.css'
+import '../assets/css/tradingsection.css'
+
+
+const TradingSection = () => {
+    return (
+        <section className="py-2 mt-5">
+            <div className="container">
+                <div className="row align-items-center">
+
+                    {/* Left Images */}
+                    <div className="col-lg-6 col-md-6 col-12 position-relative mb-5 mb-md-0 d-flex justify-content-center">
+                        <div className="position-relative w-100 d-flex justify-content-center">
+                            {/* Bottom Image with Animation */}
+                            <img
+                                src={laptopBg}
+                                alt="Laptop Background"
+                                className="img-fluid rounded-4 laptop-bg-animation"
+                            />
+
+                            {/* Overlay small image with Animation */}
+                            <div className="tradingesay">
+                                <img
+                                    src={overlayImg}
+                                    alt="Overlay"
+                                    className="img-fluid rounded-4"
+                                />
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    {/* Right Content */}
+                    <div className="col-lg-6 col-md-6 col-12 text-center text-md-start px-lg-5">
+
+                        <h1 className="mb-3 display-5">Create Your Own Trading Strategies with our blockchain</h1>
+                        <p className="text-muted mb-3 ">
+                            We build aesthetically beautiful designs with hard hitting backend logic. Every WordPress site we build takes full advantage of best practices and is fully optimized, responsive, and SEO friendly.
+                        </p>
+                        <div className="card  border-0 rounded-4 p-3 d-flex flex-row align-items-center justify-content-between" style={{ backgroundColor: '#F9F9F9' }}>
+                            {/* Left Side - Features */}
+                            <div className="mt-2">
+                                <p className=" flex items-center fs-5 ">
+                                    <img
+                                        src={Greentike}
+                                        alt="check"
+                                        className=" me-2 mb-1"
+                                    />
+                                    Trade in 3 fiat currencies
+                                </p>
+                                <p className=" flex items-center fs-5">
+                                    <img
+                                        src={Greentike}
+                                        alt="check"
+                                        className=" me-2 mb-1"
+                                    />
+                                    24/7 live chat support
+                                </p>
+                                <p className=" flex items-center fs-5">
+                                    <img
+                                        src={Greentike}
+                                        alt="check"
+                                        className=" me-2 mb-1"
+                                    />
+                                    Margin Trading
+                                </p>
+                            </div>
+
+
+                            {/* Right Side - Circle */}
+                            <div
+                                className=" d-flex align-items-center justify-content-center"
+                                style={{
+                                    height: "130px",
+                                    width: '50%'
+                                }}
+                            >
+                                <img
+                                    src={Criclebg}
+                                    alt="Laptop Background"
+                                    className="img-fluid"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    );
+};
+
+export default TradingSection;
