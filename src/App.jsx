@@ -22,6 +22,7 @@ function App() {
 
   return (
     <>
+    
       <Headersection />
       <HeroSection />
       <SlideSection />
@@ -33,6 +34,7 @@ function App() {
       <ContactCard />
       <Testimonial />
       <Footer />
+
     </>
   )
 }
