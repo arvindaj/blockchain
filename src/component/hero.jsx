@@ -10,7 +10,7 @@ const HeroSection = () => {
         >
             {/* Background geometric shapes */}
             <div
-                className="position-absolute"
+                className="position-absolute d-none d-lg-block"
                 style={{
                     top: "15%",
                     left: "43%",
@@ -20,15 +20,15 @@ const HeroSection = () => {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "contain",
                     backgroundPosition: "center",
-                    //   opacity: "3",
                     zIndex: 0, // stays behind
                 }}
             ></div>
 
+
             <div className="row align-items-center position-relative" style={{ zIndex: 1 }}>
                 {/* Left Text Section */}
                 <div className="col-md-6 px-5 mt-0 mb-5">
-                    <h1 className="fw-bold display-1">
+                    <h1 className="fw-bold display-2">
                         Build Better <br />
                         Chain <br />
                         Advancing <br />
@@ -47,6 +47,7 @@ const HeroSection = () => {
                         </button>
                     </div>
                 </div>
+
 
                 {/* Right Image Section */}
                 <div className="col-md-6 text-center px-5">

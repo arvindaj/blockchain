@@ -10,7 +10,7 @@ import CheckImg from "../assets/img2/XMLID4.svg";
 
 export default function BusinessGrowth() {
     return (
-        <div className="container my-5">
+        <div className="container my-5 p-3">
             <div className="row align-items-center">
 
                 {/* Left Image */}
@@ -29,7 +29,7 @@ export default function BusinessGrowth() {
                     <h2 className="fw-bold display-6">
                         Our Top-Performing For <br /> Business Growth
                     </h2>
-                    <p className="text-muted fs-5 col-10">
+                    <p className="text-muted fs-5 col-lg-10 ">
                         Intelivita specializes in delivering scalable Android app solutions,
                         leveraging our team’s expertise across the entire development process.
                     </p>

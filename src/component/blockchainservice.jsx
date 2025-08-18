@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import productivtyone from '../assets/img2/Mask group.svg'
 import BusinessGrowth from '../assets/img2/Business Growth.svg'
 import RunningAppExperience from '../assets/img2/Running App Experience.svg'
+import '../assets/css/explorecard.css'
 
 export default function BlockchainService() {
   return (

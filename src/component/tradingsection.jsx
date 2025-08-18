@@ -46,31 +46,35 @@ const TradingSection = () => {
                         <div className="card  border-0 rounded-4 p-3 d-flex flex-row align-items-center justify-content-between" style={{ backgroundColor: '#F9F9F9' }}>
                             {/* Left Side - Features */}
                             <div className="mt-2">
-                                <p className=" flex items-center fs-5 ">
+                                <p className="d-flex align-items-center fs-5 mb-2">
                                     <img
                                         src={Greentike}
                                         alt="check"
-                                        className=" me-2 mb-1"
+                                        className="me-2"
+                                        style={{ width: "30px", height: "20px" }}
                                     />
                                     Trade in 3 fiat currencies
                                 </p>
-                                <p className=" flex items-center fs-5">
+                                <p className="d-flex align-items-center fs-5 mb-2">
                                     <img
                                         src={Greentike}
                                         alt="check"
-                                        className=" me-2 mb-1"
+                                        className="me-2"
+                                        style={{ width: "30px", height: "20px" }}
                                     />
                                     24/7 live chat support
                                 </p>
-                                <p className=" flex items-center fs-5">
+                                <p className="d-flex align-items-center fs-5 mb-2 ">
                                     <img
                                         src={Greentike}
                                         alt="check"
-                                        className=" me-2 mb-1"
+                                        className="me-2"
+                                        style={{ width: "30px", height: "20px" }}
                                     />
-                                    Margin Trading
+                                    Margin Trading value
                                 </p>
                             </div>
+
 
 
                             {/* Right Side - Circle */}

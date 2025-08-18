@@ -20,7 +20,7 @@ const Headersection = () => {
                                 }}
                             />
                             <div className="vr bg-dark mx-3 d-none d-lg-block" style={{ height: "40px", opacity: 1.5 }}></div>
-                            <a href="#" className="growth-btn d-none d-xl-block">
+                            <a href="#" className="growth-btn d-none d-xl-block mt-3">
                                 <span className="dot"></span>
                                 Growth
                             </a>

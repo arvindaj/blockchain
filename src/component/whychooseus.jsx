@@ -6,7 +6,7 @@ import bottomimg  from '../assets/img2/whyimgbottom.svg'
 export default function WhyChooseUs() {
     return (
         <div
-            className="text-center py-5"
+            className="text-center py-5 p-3"
             style={{ background: "linear-gradient(180deg, #F8F1F1, #f8f9fa, #CBCBCB)" }}
         >
             {/* Heading */}

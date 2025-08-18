@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Headersection from './component/header'
 import HeroSection from './component/hero'
@@ -14,6 +14,11 @@ import BlockchainService from './component/blockchainservice'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  // 👇 Scroll to top on reload
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>
