@@ -27,17 +27,36 @@ const HeroSection = () => {
 
             <div className="row align-items-center position-relative" style={{ zIndex: 1 }}>
                 {/* Left Text Section */}
-                <div className="col-md-6 px-5 mt-0 mb-5">
-                    <h1 className="fw-bold display-2">
-                        Build Better <br />
-                        Chain <br />
-                        Advancing <br />
-                        Global
+                <div className="col-md-6 px-lg-5 mt-0 mb-5">
+                    <h1
+                        className="display-2"
+                        style={{
+                            fontFamily: 'Poppins, sans-serif',
+                            fontWeight: 500,
+                            // fontSize: '32px',
+                            lineHeight: '110%',
+                            letterSpacing: '0',
+                        }}
+                    >
+                        Effective,<br />
+                        Accountable, <br />
+                        Secure Blockchain
+                        Applications
                     </h1>
-                    <p className="text-muted mt-3 fs-5">
-                        Our vetted developers deliver robust and user-friendly iOS
-                        applications
+                    <p
+                        className="text-muted mt-3 fs-5"
+                        style={{
+                            fontFamily: 'Poppins, sans-serif',
+                            fontWeight: 400,
+                            fontStyle: 'normal',
+                            fontSize: '20px',
+                            lineHeight: '144%',
+                            letterSpacing: '0',
+                        }}
+                    >
+                        Use blockchain to revolutionize operations in speed and reliability.
                     </p>
+
                     <div className="d-flex mt-4">
                         <button className="btn btn-dark rounded-pill me-3 px-4">
                             Get A Quote
