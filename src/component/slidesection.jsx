@@ -1,19 +1,24 @@
 import React from "react";
-import img1 from '../assets/img/Logo Ipsum 1.png';
-import img2 from '../assets/img/Logo Ipsum 2.png';
-import img3 from '../assets/img/Logo Ipsum 3.png';
-import img4 from '../assets/img/Logo Ipsum 4.png';
-import img5 from '../assets/img/Logo Ipsum 5.png';
-import img6 from '../assets/img/Logo Ipsum 6.png';
-import img7 from '../assets/img/Logo Ipsum 7.png';
-import img8 from '../assets/img/Logo Ipsum 8.png';
-import img9 from '../assets/img/Logo Ipsum 9.png';
-import img10 from '../assets/img/Logo Ipsum 10.png';
+import img1 from '../assets/img/Logo1.png';
+import img2 from '../assets/img/Logo2.png';
+import img3 from '../assets/img/Logo3.png';
+import img4 from '../assets/img/Logo4.png';
+import img5 from '../assets/img/Logo5.png';
+import img6 from '../assets/img/Logo6.png';
+import img7 from '../assets/img/Logo7.png';
+import img8 from '../assets/img/Logo8.png';
+import img9 from '../assets/img/Logo9.png';
+import img10 from '../assets/img/Logo10.png';
+import img11 from '../assets/img/Logo11.png';
+import img12 from '../assets/img/Logo12.png';
+import img13 from '../assets/img/Logo13.png';
+import img14 from '../assets/img/Logo14.png';
+import img15 from '../assets/img/Logo15.png';
 import '../assets/css/slidesection.css';
 
 const SlideSection = () => {
-  const row1 = [img1, img2, img3, img4, img5];
-  const row2 = [img6, img7, img8, img9, img10];
+  const row1 = [img1, img2, img3, img4, img5,img11,img12,img13];
+  const row2 = [img6, img7, img8, img9, img10,img14,img15];
 
   return (
     <div className="position-relative py-4 container mt-5">
