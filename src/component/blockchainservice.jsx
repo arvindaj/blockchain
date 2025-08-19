@@ -53,7 +53,15 @@ export default function BlockchainService() {
       </div>
 
       {/* Description */}
-      <p className=" mb-4 px-md-5 fs-5">
+      <p className=" mb-4 px-md-5 fs-5"
+        style={{
+          fontFamily: "Poppins, sans-serif",
+          fontWeight: 200,
+          fontStyle: "normal",
+          fontSize: "16px",
+          letterSpacing: "0%",
+          verticalAlign: "middle",
+        }}>
         We provide blockchain solutions at every stage of the process; strategy to deployment.
         Custom Smart Contracts - Smart-contracts that are entirely automatic, and enforce themselves fully, your workflows.
 

@@ -3,10 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Bussiness from "../assets/img2/bussinessimg.svg";
 
 // Import your own images instead of icons
-import MobileImg from "../assets/img2/XMLID1.svg";
-import TargetImg from "../assets/img2/XMLID2.svg";
-import IdeaImg from "../assets/img2/XMLID3.svg";
-import CheckImg from "../assets/img2/XMLID4.svg";
+import MobileImg from "../assets/img2/Frame1.svg";
+import TargetImg from "../assets/img2/Frame2.svg";
+import IdeaImg from "../assets/img2/Frame3.svg";
+import CheckImg from "../assets/img2/Frame4.svg";
 
 export default function BusinessGrowth() {
     return (

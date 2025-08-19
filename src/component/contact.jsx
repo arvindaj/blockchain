@@ -42,8 +42,16 @@ const ContactCard = () => {
           <h1 className="fw-bold display-5 display-md-4 display-lg-3">
             Blockchain Now
           </h1>
-          <p className="text-white-50 mt-3" style={{ maxWidth: "90%" }}>
-             We can upgrade your business to transparent, secure, and efficient solutions using a blockchain. Contact us today to get a customised consultation and pilot project.
+          <p className="text-white-50 mt-3" style={{
+            fontFamily: "Poppins, sans-serif",
+            fontWeight: 200,
+            fontStyle: "normal",
+            fontSize: "16px",
+            letterSpacing: "0%",
+            verticalAlign: "middle",
+            width: "90%",
+          }}>
+            We can upgrade your business to transparent, secure, and efficient solutions using a blockchain. Contact us today to get a customised consultation and pilot project.
           </p>
         </div>
 
