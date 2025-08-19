@@ -6,7 +6,7 @@ import bottomimg from '../assets/img2/whyimgbottom.svg'
 export default function WhyChooseUs() {
     return (
         <div
-            className="text-center py-lg-5"
+            className="text-center py-lg-5 mb-4 p-4"
             style={{ background: "linear-gradient(180deg, #F8F1F1, #f8f9fa, #CBCBCB)" }}
         >
             {/* Heading */}
@@ -60,7 +60,7 @@ export default function WhyChooseUs() {
                             50% Reduced Costs I The intervention of human hands and decentralization are cut back through automation.
                         </p>
                     </div>
-                    <div className="col-md-4 mb-4">
+                    <div className="col-md-4">
                         <p className="fw-bold  text-muted" style={{
                             fontFamily: "Poppins, sans-serif",
                             fontWeight: 600,

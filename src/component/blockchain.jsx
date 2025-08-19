@@ -17,7 +17,7 @@ const BlockchainSection = () => {
     {
       title: "Distributed Consensus",
       description:
-        "It is cryptographically secure and nearly impossible to hack because of cryptographic integrity and immutability.",
+        "Ensures all network participants agree on a single version of the ledger without a central authority.",
       icon: iconExplore,
     },
     {
@@ -110,9 +110,8 @@ const BlockchainSection = () => {
             <img
               src={Blockchainimg}
               alt="Laptop"
-              className="rounded-4 laptop-bg-animation"
+              className="rounded-4  laptop-bg-animation"
             />
-
             {/* Overlay images */}
             <div className="blockchain-overlay-card">
               <img src={bgBlockchain} alt="Overlay" className="bgBlockchaintwo" />

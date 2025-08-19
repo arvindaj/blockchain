@@ -4,7 +4,7 @@ import '../assets/css/footer.css'
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light pt-4 pb-2 mt-5">
+    <footer className="bg-dark text-light pt-4 pb-2 mt-5 p-3">
       <div className="container">
         {/* Contact Info */}
         <div className="row text-center text-md-start mb-4">
@@ -83,7 +83,7 @@ const Footer = () => {
           <div
             className="flex-grow-1"
             style={{
-              height: "8px",
+              height: "18px",
               borderRadius: "4px",
               background:
                 "linear-gradient(90deg, #A7E252 0%, rgba(92, 124, 45, 0.29) 100%)",

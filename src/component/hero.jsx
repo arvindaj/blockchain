@@ -29,7 +29,7 @@ const HeroSection = () => {
                 {/* Left Text Section */}
                 <div className="col-md-6 px-lg-5 mt-0 mb-5">
                     <h1
-                        className="display-2"
+                        className="display-3"
                         style={{
                             fontFamily: 'Poppins, sans-serif',
                             fontWeight: 500,

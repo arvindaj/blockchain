@@ -13,7 +13,7 @@ const ContactCard = () => {
   }, []);
 
   return (
-    <div className="container my-5 p-lg-0 p-4">
+    <div className="container my-5 p-lg-0 py-o pb-0 p-4 ">
       <div
         className="row g-4 rounded-4 p-4 overflow-hidden align-items-center"
         style={{

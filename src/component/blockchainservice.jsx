@@ -7,10 +7,10 @@ import '../assets/css/explorecard.css'
 
 export default function BlockchainService() {
   return (
-    <div className="container text-center my-5 py-5">
+    <div className="container text-center my-lg-5 py-o pb-0 p-4 ">
       {/* Heading */}
       <h2 className="fw-bold mb-4 display-6">
-        End-to-end Blockchain <br /> Development Service
+        Check PavalSoft Blockchain <br /> Development Service
       </h2>
 
       {/* Three columns */}
@@ -29,7 +29,7 @@ export default function BlockchainService() {
 
         {/* Running App Experience */}
         <div className="col-md-4 mb-4">
-          <h5 className="fw-bold mb-3">Running App Experience</h5>
+          <h5 className="fw-bold mb-3">Experience</h5>
           <div className="card shadow-sm border-0 rounded-3">
             <img
               src={BusinessGrowth}
@@ -53,18 +53,18 @@ export default function BlockchainService() {
       </div>
 
       {/* Description */}
-      <p className=" mb-4 px-md-5 fs-5"
-        style={{
-          fontFamily: "Poppins, sans-serif",
-          fontWeight: 200,
-          fontStyle: "normal",
-          fontSize: "16px",
-          letterSpacing: "0%",
-          verticalAlign: "middle",
-        }}>
-        We provide blockchain solutions at every stage of the process; strategy to deployment.
-        Custom Smart Contracts - Smart-contracts that are entirely automatic, and enforce themselves fully, your workflows.
-
+      <p className=" mb-4 px-md-5 fs-5" style={{
+        fontFamily: "Poppins, sans-serif",
+        fontWeight: 400,
+        fontStyle: "normal",
+        fontSize: "16px",
+        letterSpacing: "0%",
+        verticalAlign: "middle",
+      }}>
+        How we helped bring a live Web2 game with 20M+ users on-chain, with zero
+        disruption to gameplay. <br />
+        Accelerate MVP development and full-scale launch with expert iOS app
+        developers.
       </p>
 
       {/* Button */}

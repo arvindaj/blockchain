@@ -20,7 +20,7 @@ const TradingSection = () => {
                             <img
                                 src={laptopBg}
                                 alt="Laptop Background"
-                                className="img-fluid rounded-4 laptop-bg-animation"
+                                className="img-fluid rounded-4 laptop-bg-animations"
                             />
 
                             {/* Overlay small image with Animation */}
