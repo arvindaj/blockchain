@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Minebanner from "../assets/img2/banner.svg";
+import Minebanner from "../assets/img2/bannner2.svg";
 import bgbanner from "../assets/img2/bgbanner.svg";
 
 const HeroSection = () => {

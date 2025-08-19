@@ -21,7 +21,7 @@ const Headersection = () => {
                             />
                             <div className="vr bg-dark mx-3 d-none d-lg-block" style={{ height: "40px", opacity: 1.5 }}></div>
                             <a href="#" className="growth-btn d-none d-xl-block mt-3">
-                                <span className="dot"></span>
+                                <span className="dot me-2"> </span>
                                 Growth
                             </a>
                         </div>
@@ -31,15 +31,15 @@ const Headersection = () => {
                     <div className="col-6 d-none d-lg-block col-lg-4">
                         <div className="contact-numbers">
                             <div className="contact-item">
-                                <img src="https://flagcdn.com/in.svg" alt="India" className="flag-icon me-1" />
+                                <img src="https://flagcdn.com/in.svg" alt="India" className="flag-icon me-1 mb-1" />
                                 +91 6307050902
                             </div>
                             <div className="contact-item">
-                                <img src="https://flagcdn.com/au.svg" alt="Australia" className="flag-icon me-1" />
+                                <img src="https://flagcdn.com/au.svg" alt="Australia" className="flag-icon me-1 mb-1" />
                                 +74 402720107
                             </div>
                             <div className="contact-item">
-                                <img src="https://flagcdn.com/gb.svg" alt="UK" className="flag-icon me-1" />
+                                <img src="https://flagcdn.com/gb.svg" alt="UK" className="flag-icon me-1 mb-1" />
                                 +61 449840901
                             </div>
                         </div>

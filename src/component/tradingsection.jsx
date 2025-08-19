@@ -39,9 +39,10 @@ const TradingSection = () => {
                     {/* Right Content */}
                     <div className="col-lg-6 col-md-6 col-12 text-center text-md-start px-lg-5">
 
-                        <h1 className="mb-3 display-5">Create Your Own Trading Strategies with our blockchain</h1>
+                        <h1 className="mb-3 display-5">Automate, Increase ConfidenceWith Blockchains</h1>
                         <p className="text-muted mb-3 ">
-                            We build aesthetically beautiful designs with hard hitting backend logic. Every WordPress site we build takes full advantage of best practices and is fully optimized, responsive, and SEO friendly.
+                            Blockchain alters the way organizations perform operations- it cuts down the levels of intermediation, automates the work process and records that are tamper-resistant. Decentralized Ledger make every node copy of a verified record- which means single points of failure.
+
                         </p>
                         <div className="card  border-0 rounded-4 p-3 d-flex flex-row align-items-center justify-content-between" style={{ backgroundColor: '#F9F9F9' }}>
                             {/* Left Side - Features */}
