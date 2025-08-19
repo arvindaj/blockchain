@@ -72,7 +72,7 @@ const TradingSection = () => {
                                         className="me-2"
                                         style={{ width: "30px", height: "20px" }}
                                     />
-                                    Trade in 3 fiat
+                                    Decentralized Ledger
                                 </p>
                                 <p className="d-flex align-items-center mb-2" style={{
                                     fontFamily: "Poppins, sans-serif",
@@ -87,7 +87,7 @@ const TradingSection = () => {
                                         className="me-2"
                                         style={{ width: "30px", height: "20px" }}
                                     />
-                                    24/7 live chat
+                                    Incorruptible Records
                                 </p>
                                 <p className="d-flex align-items-center mb-2 " style={{
                                     fontFamily: "Poppins, sans-serif",
@@ -102,7 +102,7 @@ const TradingSection = () => {
                                         className="me-2"
                                         style={{ width: "30px", height: "20px" }}
                                     />
-                                    Margin Trading
+                                    Cryptographic Security
                                 </p>
                             </div>
 
