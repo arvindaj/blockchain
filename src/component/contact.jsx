@@ -36,17 +36,14 @@ const ContactCard = () => {
                 borderRadius: "50%",
               }}
             ></span>
-            <span className="fw-bold text-dark">Reach Us</span>
+            <span className="fw-bold text-dark">Call to Action</span>
           </button>
 
           <h1 className="fw-bold display-5 display-md-4 display-lg-3">
-            Listen To What They Say.
+            Blockchain Now
           </h1>
           <p className="text-white-50 mt-3" style={{ maxWidth: "90%" }}>
-            Lorem ipsum dolor sit amet consectetur. Viverra et tempor faucibus
-            nibh porta auctor. Est duis bibendum elementum neque cursus risus
-            ornare turpis viverra. Sed pulvinar interdum maecenas enim non
-            tempor a.
+             We can upgrade your business to transparent, secure, and efficient solutions using a blockchain. Contact us today to get a customised consultation and pilot project.
           </p>
         </div>
 

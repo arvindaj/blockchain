@@ -10,7 +10,7 @@ export default function BlockchainService() {
     <div className="container text-center my-5 py-5">
       {/* Heading */}
       <h2 className="fw-bold mb-4 display-6">
-        Check PavalSoft Blockchain <br /> Development Service
+        End-to-end Blockchain <br /> Development Service
       </h2>
 
       {/* Three columns */}
@@ -54,10 +54,9 @@ export default function BlockchainService() {
 
       {/* Description */}
       <p className=" mb-4 px-md-5 fs-5">
-        How we helped bring a live Web2 game with 20M+ users on-chain, with zero
-        disruption to gameplay. <br />
-        Accelerate MVP development and full-scale launch with expert iOS app
-        developers.
+        We provide blockchain solutions at every stage of the process; strategy to deployment.
+        Custom Smart Contracts - Smart-contracts that are entirely automatic, and enforce themselves fully, your workflows.
+
       </p>
 
       {/* Button */}

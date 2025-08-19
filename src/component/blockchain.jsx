@@ -15,21 +15,21 @@ const BlockchainSection = () => {
 
   const features = [
     {
-      title: "Explore the top blockchains",
+      title: "80% Increased Security",
       description:
-        "Confirm transactions, analyze the market, or simply learn more about crypto.",
+        "It is cryptographically secure and nearly impossible to hack because of cryptographic integrity and immutability.",
       icon: iconExplore,
     },
     {
-      title: "Powerful Blockchain Data API",
+      title: "Real-Time Transparency",
       description:
-        "Access reliable and scalable blockchain data through our powerful API.",
+        "The level of transparency of all transactions in the network is immediate.",
       icon: iconApi,
     },
     {
-      title: "Industry leading charts",
+      title: "35 Times Quicker Deployment",
       description:
-        "Visualize market trends and blockchain activities with advanced charts.",
+        "The ready-made ledger tools and frameworks accelerate the project turnaround enormously.",
       icon: iconCharts,
     },
     {
@@ -46,12 +46,13 @@ const BlockchainSection = () => {
         {/* Left Content */}
         <div className="col-md-6 mb-4">
           <h2 className="fs-1">
-            Blockchain data is <br /> in our DNA
+            Safe, More Efficient, more transparent Data Storage
           </h2>
           <p className="text-muted fs-5">
-            Intelivita specializes in delivering scalable Android app solutions,
-            leveraging our team's expertise across the entire development
-            process.
+            Blockchain provides a new generation data solution - distributed, encrypted, trust based.
+            Immutable Storage- Changes cannot be made once committed and thus integrity.
+            Distributed Consensus: Reduction in the requirement of central management based on the validation of the data by the multiple participants.
+
           </p>
 
           {/* Features List */}
@@ -60,11 +61,10 @@ const BlockchainSection = () => {
               <li
                 key={feature.title}
                 role="button"
-                className={`p-3 d-flex flex-column mb-3 rounded-3 ${
-                  activeFeature === feature.title
+                className={`p-3 d-flex flex-column mb-3 rounded-3 ${activeFeature === feature.title
                     ? "bg-light shadow-sm border"
                     : ""
-                }`}
+                  }`}
                 onClick={() => setActiveFeature(feature.title)}
               >
                 <div className="d-flex align-items-center">
