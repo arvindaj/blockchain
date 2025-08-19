@@ -27,13 +27,13 @@ const BlockchainSection = () => {
       icon: iconApi,
     },
     {
-      title: "Immutable Storage",
+      title: "Tamperproof Data Storage",
       description:
         "The level of transparency of all transactions in the network is immediate.",
       icon: iconCharts,
     },
     {
-      title: "Automated Trust of smart contracts",
+      title: "Smart Contract Trust",
       description:
         "Allow reliable automation of code-based processes without intermediaries.",
       icon: iconCrypto,
@@ -52,7 +52,7 @@ const BlockchainSection = () => {
             fontFamily: "Poppins, sans-serif",
             fontWeight: 200,
             fontStyle: "normal",
-            fontSize: "16px",
+            fontSize: "15px",
             letterSpacing: "0%",
             verticalAlign: "middle",
           }}>
@@ -61,7 +61,7 @@ const BlockchainSection = () => {
           </p>
 
           {/* Features List */}
-          <ul className="list-unstyled ">
+          <ul className="list-unstyled text-start">
             {features.map((feature) => (
               <li
                 key={feature.title}
@@ -94,7 +94,7 @@ const BlockchainSection = () => {
                     fontFamily: "Poppins, sans-serif",
                     fontWeight: 400,
                     fontStyle: "normal",
-                    fontSize: "16px",
+                    fontSize: "15px",
                     // lineHeight: "100%",
                   }}>{feature.description}</p>
                 )}

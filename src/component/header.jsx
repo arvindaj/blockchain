@@ -27,23 +27,68 @@ const Headersection = () => {
                         </div>
                     </div>
 
-                    {/* Center Section - Contact Numbers */}
                     <div className="col-6 d-none d-lg-block col-lg-4">
                         <div className="contact-numbers">
                             <div className="contact-item">
-                                <img src="https://flagcdn.com/in.svg" alt="India" className="flag-icon me-1 mb-1" />
-                                +91 6307050902
+                                <img
+                                    src="https://flagcdn.com/in.svg"
+                                    alt="India"
+                                    className="flag-icon me-1 mb-1"
+                                />
+                                <span
+                                    style={{
+                                        fontFamily: "Poppins, sans-serif",
+                                        fontWeight: 400,
+                                        fontStyle: "normal",
+                                        fontSize: "14px",
+                                        lineHeight: "144%",
+                                        letterSpacing: "0",
+                                    }}
+                                >
+                                    +91 6307050902
+                                </span>
                             </div>
                             <div className="contact-item">
-                                <img src="https://flagcdn.com/au.svg" alt="Australia" className="flag-icon me-1 mb-1" />
-                                +74 402720107
+                                <img
+                                    src="https://flagcdn.com/au.svg"
+                                    alt="Australia"
+                                    className="flag-icon me-1 mb-1"
+                                />
+                                <span
+                                    style={{
+                                        fontFamily: "Poppins, sans-serif",
+                                        fontWeight: 400,
+                                        fontStyle: "normal",
+                                        fontSize: "14px",
+                                        lineHeight: "144%",
+                                        letterSpacing: "0",
+                                    }}
+                                >
+                                    +74 402720107
+                                </span>
                             </div>
                             <div className="contact-item">
-                                <img src="https://flagcdn.com/gb.svg" alt="UK" className="flag-icon me-1 mb-1" />
-                                +61 449840901
+                                <img
+                                    src="https://flagcdn.com/gb.svg"
+                                    alt="UK"
+                                    className="flag-icon me-1 mb-1"
+                                />
+                                <span
+                                    style={{
+                                        fontFamily: "Poppins, sans-serif",
+                                        fontWeight: 400,
+                                        fontStyle: "normal",
+                                        fontSize: "14px",
+                                        lineHeight: "144%",
+                                        letterSpacing: "0",
+                                    }}
+                                >
+                                    +61 449840901
+                                </span>
                             </div>
                         </div>
                     </div>
+
 
                     {/* Right Section - Let's Talk Button */}
                     <div className="col-6 col-lg-4 text-end">

@@ -7,7 +7,19 @@ import '../assets/css/wordpresssection.css'
 import '../assets/css/tradingsection.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
+// ✅ Import AOS
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
 const TradingSection = () => {
+
+     useEffect(() => {
+            AOS.init({ duration: 1000, once: true }); // initialize animations
+        }, []);
+
     return (
         <section className="py-2 mt-5">
             <div className="container">
@@ -39,14 +51,14 @@ const TradingSection = () => {
                     {/* Right Content */}
                     <div className="col-lg-6 col-md-6 col-12 text-center text-md-start px-lg-5">
 
-                        <h1 className="mb-3 display-5">Automate, Increase ConfidenceWith Blockchains</h1>
+                        <h1 className="mb-3 display-5" data-aos="zoom-in" data-aos-delay="500" >Automate, Increase ConfidenceWith Blockchains</h1>
                         <p
                             className="text-muted mb-3"
                             style={{
                                 fontFamily: "Poppins, sans-serif",
                                 fontWeight: 200,
                                 fontStyle: "normal",
-                                fontSize: "16px",
+                                fontSize: "15px",
                                 letterSpacing: "0%",
                                 verticalAlign: "middle",
                             }}
@@ -63,7 +75,7 @@ const TradingSection = () => {
                                     fontFamily: "Poppins, sans-serif",
                                     fontWeight: 200,
                                     fontStyle: "normal",
-                                    fontSize: "16px",
+                                    fontSize: "15px",
                                     lineHeight: "100%",
                                 }}>
                                     <img
@@ -78,7 +90,7 @@ const TradingSection = () => {
                                     fontFamily: "Poppins, sans-serif",
                                     fontWeight: 200,
                                     fontStyle: "normal",
-                                    fontSize: "16px",
+                                    fontSize: "15px",
                                     lineHeight: "100%",
                                 }}>
                                     <img
@@ -93,7 +105,7 @@ const TradingSection = () => {
                                     fontFamily: "Poppins, sans-serif",
                                     fontWeight: 400,
                                     fontStyle: "normal",
-                                    fontSize: "16px",
+                                    fontSize: "15px",
                                     lineHeight: "100%",
                                 }}>
                                     <img

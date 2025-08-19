@@ -53,11 +53,11 @@ export default function BlockchainService() {
       </div>
 
       {/* Description */}
-      <p className=" mb-4 px-md-5 fs-5" style={{
+      <p className=" mb-4 px-md-5 fs-6" style={{
         fontFamily: "Poppins, sans-serif",
         fontWeight: 400,
         fontStyle: "normal",
-        fontSize: "16px",
+        // fontSize: "15px",
         letterSpacing: "0%",
         verticalAlign: "middle",
       }}>

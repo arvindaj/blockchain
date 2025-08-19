@@ -18,7 +18,7 @@ export default function WhyChooseUs() {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
-                        <p className="text-muted mt-3 mb-5 fs-5" style={{
+                        <p className="text-muted mt-3 mb-5 fs-6" style={{
                             fontFamily: "Poppins, sans-serif",
                             fontWeight: 400,
                             fontStyle: "normal",
@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
                             fontFamily: "Poppins, sans-serif",
                             fontWeight: 600,
                             fontStyle: "normal",
-                            fontSize: "16px",
+                            fontSize: "15px",
                             letterSpacing: "0%",
                             verticalAlign: "middle",
                         }}>
@@ -53,7 +53,7 @@ export default function WhyChooseUs() {
                             fontFamily: "Poppins, sans-serif",
                             fontWeight: 600,
                             fontStyle: "normal",
-                            fontSize: "16px",
+                            fontSize: "15px",
                             letterSpacing: "0%",
                             verticalAlign: "middle",
                         }}>
@@ -65,7 +65,7 @@ export default function WhyChooseUs() {
                             fontFamily: "Poppins, sans-serif",
                             fontWeight: 600,
                             fontStyle: "normal",
-                            fontSize: "16px",
+                            fontSize: "15px",
                             letterSpacing: "0%",
                             verticalAlign: "middle",
                         }}>
