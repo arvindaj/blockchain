@@ -1,10 +1,15 @@
 /* Bootstrap handles spacing & responsive, this handles animation only */
 .marquee {
-  animation: marquee 25s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee-reverse {
-  animation: marqueeReverse 25s linear infinite;
+  animation: marqueeReverse 20s linear infinite;
+}
+.logo-img {
+  width: 120px;
+  height: 60px;
+  object-fit: contain; /* Keeps logo aspect ratio without stretching */
 }
 
 @keyframes marquee {
