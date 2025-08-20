@@ -1,14 +1,15 @@
 .explore-btn {
-  background-color: #8EC440;
+  background: linear-gradient(15deg, #8EC440 0%, #8EC440 50%, #76b20f 50%, #76b20f 100%);
+  background-size: 200% 200%;
+  background-position: left bottom;
   color: #fff;
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
+  transition: background-position 0.5s ease-in-out, transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
 .explore-btn:hover {
-  background-color: #76b20f;
-  color: #fff;
-  transform: translateY(-3px);
+  background-position: right top; /* diagonal wipe */
+  /* transform: rotate(45deg); */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }

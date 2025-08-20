@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
             </div>
 
             {/* Button */}
-            <button className="btn btn-dark btn-lg rounded-pill px-4 mt-3">
+            <button className="btn btn-dark btn-lg rounded-pill px-4 mt-3 quote-btn ">
                 Connect with Expert
             </button>
 

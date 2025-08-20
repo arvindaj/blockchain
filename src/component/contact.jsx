@@ -97,7 +97,7 @@ const ContactCard = () => {
               ></textarea>
 
               <div className="d-grid">
-                <button className="btn btn-dark rounded-pill" type="submit">
+                <button className="btn btn-dark rounded-pill quote-btn" type="submit">
                   Submit
                 </button>
               </div>
