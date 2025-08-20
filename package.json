@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "postinstall": "chmod +x node_modules/.bin/vite"
-    
   },
   "dependencies": {
     "aos": "^2.3.4",

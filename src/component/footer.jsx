@@ -76,7 +76,7 @@ const Footer = () => {
             className="fw-bold mb-2 mb-md-0 me-3 fs-6 fs-lg-0"
             style={{ color: "#8EC440", whiteSpace: "nowrap" }}
           >
-            Our Word Press Service <br className="d-none d-md-block" />
+            Our Blockchain Service <br className="d-none d-md-block" />
             Industries
           </h5>
 

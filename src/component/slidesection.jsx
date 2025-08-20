@@ -17,8 +17,8 @@ import img15 from '../assets/img/Logo15.png';
 import '../assets/css/slidesection.css';
 
 const SlideSection = () => {
-  const row1 = [img1, img2, img3, img4, img5,img11,img12,img13];
-  const row2 = [img6, img7, img8, img9, img10,img14,img15];
+  const row1 = [img1, img2, img3, img4, img5,img6, img7, img8, img9, img10,img11,img12,img13,img14,img15];
+  const row2 = [img15,img14,img13,img12,img11,img10,img9,img8,img7, img6, img5, img4, img3, img2, img1];
 
   return (
     <div className="position-relative py-4 container mt-5">
