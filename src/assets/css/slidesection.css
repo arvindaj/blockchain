@@ -7,8 +7,8 @@
   animation: marqueeReverse 20s linear infinite;
 }
 .logo-img {
-  width: 120px;
-  height: 60px;
+  width: 150px;
+  height: 80px;
   object-fit: contain; /* Keeps logo aspect ratio without stretching */
 }
 
