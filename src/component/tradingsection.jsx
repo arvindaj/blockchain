@@ -22,7 +22,7 @@ const TradingSection = () => {
         <div className="row align-items-center">
 
           {/* Left Images */}
-          <div className="col-lg-6 col-md-6 col-12 position-relative mb-5 mb-md-0 d-flex justify-content-center">
+          <div className="col-lg-6 col-md-12 col-12 position-relative mb-5 mb-md-0 d-flex justify-content-center">
             <div 
               className="position-relative w-100 d-flex justify-content-center"
               data-aos="fade-right" data-aos-delay="200"
@@ -39,14 +39,14 @@ const TradingSection = () => {
                 <img
                   src={overlayImg}
                   alt="Overlay"
-                  className="img-fluid rounded-4"
+                  className="img-fluid rounded-4 "
                 />
               </div>
             </div>
           </div>
 
           {/* Right Content */}
-          <div className="col-lg-6 col-md-6 col-12 text-center text-md-start px-lg-5">
+          <div className="col-lg-6 col-md-12 col-12 text-center text-md-start px-lg-5 p-md-4">
 
             <h1 
               className="mb-3 display-5"

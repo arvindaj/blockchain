@@ -44,7 +44,7 @@ const BlockchainSection = () => {
     <div className="container py-5 p-4 mt-5">
       <div className="row align-items-center">
         {/* Left Content */}
-        <div className="col-md-6 mb-4">
+        <div className="col-lg-6 col-md-12 mb-4">
           <h2 className="fs-1">
             Safe, More Efficient, more transparent Data Storage
           </h2>
@@ -104,8 +104,8 @@ const BlockchainSection = () => {
         </div>
 
         {/* Right Images */}
-        <div className="col-lg-6 col-md-6 col-12 position-relative mb-5 mb-md-0 d-flex justify-content-center">
-          <div className="position-relative w-100 d-flex justify-content-center">
+        <div className="col-lg-6 col-md-12 col-12 position-relative mb-5 mb-md-0 d-flex justify-content-center p-md-5 ">
+          <div className="position-relative w-100 d-flex justify-content-center p-md-5">
             {/* Base image */}
             <img
               src={Blockchainimg}

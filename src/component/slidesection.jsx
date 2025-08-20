@@ -21,7 +21,7 @@ const SlideSection = () => {
   const row2 = [img15,img14,img13,img12,img11,img10,img9,img8,img7, img6, img5, img4, img3, img2, img1];
 
   return (
-    <div className="position-relative py-4 container mt-5">
+    <div className="position-relative py-4 container mt-lg-5 mt-0">
 
       <div className="overflow-hidden mb-4">
         
