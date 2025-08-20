@@ -94,7 +94,7 @@ const Headersection = () => {
                     <div className="col-6 col-lg-4 text-end">
                         <div className="d-flex align-items-center justify-content-end gap-3">
                             <div className="vr bg-dark me-2 d-none d-lg-block" style={{ height: "40px", opacity: 0.8 }}></div>
-                            <button className="btn btn-dark rounded-pill px-3 px-lg-4 py-2">
+                            <button className="btn btn-dark rounded-pill px-3 px-lg-4 py-2 quote-btn">
                                 Let's Talk
                             </button>
                         </div>
